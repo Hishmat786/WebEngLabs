@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+
+  <title>Contact Us - FYP Website</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      width: 300px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    input,textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 12px;
+      box-sizing: border-box;
+    }
+
+    button {
+
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="subject">Subject of Inquiry:</label>
+    <input type="text" id="subject" name="subject" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+
+</body>
+</html>
