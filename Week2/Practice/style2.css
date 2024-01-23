@@ -5,6 +5,22 @@ h3{
     background-color: rgb(173, 213, 155);
     font-size: large;
 }
-#divG{
-    background-color: aqua;
+#sq1{
+   
+    border: 2px solid ;
+    width: 200px;
+    height: 200px;
+
+}
+#sq2{
+   
+    border: 2px solid ;
+    width: 200px;
+    height: 200px;
+
+}
+#sq3{
+    border: 2px solid ;
+    width: 200px;
+    height: 200px;
 }
