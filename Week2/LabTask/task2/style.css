@@ -1,0 +1,49 @@
+body{
+      justify-content: center;
+      align-items: center;
+      background-color: tomato;
+} 
+.name{
+    text-align: center;
+}
+.social {
+    display: flex;
+    padding: 10px;
+}
+.social img{
+    width: 33%;
+    align-items: center;
+}
+#about{
+    border-radius: 2px solid;
+    background-color: white;
+}
+.aboutme{
+    display: flex;
+}
+.aboutme img{
+    width: 150px;
+    margin: 10px;
+    height: 150px;
+}
+
+#skills{
+    background-color: white;
+}
+
+#projects{
+    display: flex;
+    background-color: white;
+}
+.project{
+   margin-bottom: 25;
+    width: 50%;
+}
+
+#contact{
+    background-color: white;  
+    padding-left: 25px;  
+    
+}
+
+
