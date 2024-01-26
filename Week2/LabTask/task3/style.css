@@ -1,0 +1,37 @@
+.main{
+    border: 2px solid;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    display: flex;
+}
+.topleft{
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+    
+} 
+.topright{
+    border: 2px solid;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 0%;
+    left: 100%;
+} 
+/*
+.center{
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+}
+.bottomright{
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+}
+.bottomleft{
+    border: 2px solid;
+    height: 50px;
+    width: 50px;
+} */
