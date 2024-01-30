@@ -4,6 +4,9 @@
     border: 2px solid;
     position: relative;
     background-color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
 }
 
 .child{
@@ -14,4 +17,14 @@
     top: 50%;
     left: 50%;
     background-color: green;
+    /* z-index: -1; */
+}
+.myicon *{
+    width: 48px;
+    height: 48px;
+}
+
+.fixed-area{
+    width: 100px;
+    height: 100px;
 }
