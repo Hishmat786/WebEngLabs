@@ -1,0 +1,47 @@
+.myBtton{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+.link{
+    font-size: 20px;
+}
+
+a:first-child{
+    background-color: rgb(226, 12, 12);
+}
+.mylink a:first-child{
+    background-color: #FF00FF;
+}
+.mylink>a:first-child{
+    background-color: #ffdd00;
+}
+
+.myBtton:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+a:visited {
+    color: #ffdd00;
+    font-size: 20px;
+}
+  
+a:hover {
+    color: #FF00FF;
+    font-size: 20px;
+}
+  
+a:active {
+    color: #54f861;
+    font-size: 20px;
+}
+
+a:focus{
+    background-color: #6fb8f4;
+    font-size: 20px;
+}
