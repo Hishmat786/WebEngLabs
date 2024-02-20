@@ -16,6 +16,7 @@ header {
 
 main {
     display: flex;
+    flex-direction: row-reverse;
 }
 
 aside {
@@ -28,7 +29,6 @@ aside {
 
 article {
     width: 70%;
-    display:grid;
     background-color: tomato;
     padding: 10px;
     margin: 15px;
@@ -45,6 +45,7 @@ article {
     border: 2px solid;
     margin: 5px;
     background-color: white;
+    
 }
 
 footer {
@@ -53,6 +54,5 @@ footer {
     padding: 10px;
     margin: 10px;
     text-align: center;
-    bottom: 0;
-    width: 100%;
+
 }

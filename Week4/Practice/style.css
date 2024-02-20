@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% 50% 50% 50%;
+    grid-template-rows: 50% 50% 50% 50%  ;
+}
+.child{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    background-color: lightblue ;
+}
