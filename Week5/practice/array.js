@@ -31,3 +31,9 @@ fruits.splice(2,1,"Kiwi","anb")    // delete one item from index 2 ,and replace 
 console.log(fruits)
 
 ////////////////////////////////////////////////////////////////////////////////////
+
+var anyString = "Hello new world";
+var a = anyString.indexOf("w"); // result = 8
+var b = anyString.lastIndexOf("w"); // result =10
+console.log(a,b)
+
