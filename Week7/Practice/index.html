@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <head></head>
 <body>
-        <p></p>
+        <p>1</p>
 
     <div >
-        <p></p>
-        <p></p>
-        <p></p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
         
         <div id="second">
-            <p></p>
-            <p></p>
+            <p>5</p>
+            <p>6</p>
         </div>
     </div>
 
     <script>
-        const p = document.getElementsByTagName("p")
-        p[0].innerHTML= "<h1?> this is helo</h1?>"
         
+        const p = document.getElementsByTagName("p")
+        p[0].innerHTML= "<h1> this is helo</h1>"
+
+        const inP= document.querySelectorAll( "#second > p" )
+        for (let i of inP){
+            i.onclick= function(){
+                alert(i.innerText)
+            }
+        }
+    
     </script>
 </body>
