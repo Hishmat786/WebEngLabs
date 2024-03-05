@@ -8,4 +8,4 @@ function carInfo(carObject) {
     return `The ${carObject.brand} ${carObject.model} was manufactured in ${carObject.year}.`;
 }
 
-console.log(carInfo(car));
+console.log(carInfo(car)); 

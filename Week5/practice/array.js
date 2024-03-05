@@ -28,12 +28,12 @@ console.log(myBest)
 // array.splice(start,delete,element1,element2,?,elementn)
 console.log(fruits)
 fruits.splice(2,1,"Kiwi","anb")    // delete one item from index 2 ,and replace it with kiwi
-console.log(fruits)
+console.log(fruits) 
 
 ////////////////////////////////////////////////////////////////////////////////////
 
-var anyString = "Hello new world";
-var a = anyString.indexOf("w"); // result = 8
+var anyString = "Hello new world"; 
+var a = anyString.indexOf("w"); // result = 8 
 var b = anyString.lastIndexOf("w"); // result =10
-console.log(a,b)
+console.log(a,b)   
 

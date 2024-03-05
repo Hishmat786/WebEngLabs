@@ -1,6 +1,6 @@
 const obj1 = { a: 1, b: 2, c: 3 };
 const keys = Object.keys(obj1);
-console.log(keys); // Output: ["a", "b", "c"]
+console.log(keys);  // Output: ["a", "b", "c"] 
 
 
 const obj2 = { a: 1, b: 2, c: 3 };
@@ -35,4 +35,5 @@ console.log(obj5); // Output: { a: 1, b: 2 } - no change
 const obj6 = { a: 1, b: 2 };
 Object.seal(obj6);
 obj6.c = 3; // Attempted addition
-console.log(obj6); // Output: { a: 1, b: 2 } - no new property added
+console.log(obj6)  
+// Output: { a: 1, b: 2 } - no new property added
