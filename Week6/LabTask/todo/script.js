@@ -1,13 +1,16 @@
-function addTask() {
-    var taskInput = document.getElementById("taskInput");
-    var taskList = document.getElementById("taskList");
+const btnAdd = document.getElementById("push")
 
-    if (taskInput.value.trim() !== "") {
-        var li = document.createElement("li");
-        li.textContent = taskInput.value;
-        taskList.appendChild(li);
-        taskInput.value = "";
-    } else {
-        alert("Please enter a task!");
+function addTask(){
+    let text = document.getElementById("text")
+    if(text.value == ""){
+        alert("Task Field is empity")
+    }else{
+        const toDO = document.createElement("div")
+        toDO.innerText  = text.value;
+        const container = document.getElementById('tasks')
+        container.appendChild(toDO)
+
     }
 }
+
+btnAdd.onclick = addTask
