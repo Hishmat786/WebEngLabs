@@ -5,5 +5,6 @@ var Obj={
     age: 24
 }
 
-const {name,age} =Obj
+const {name,age, ...rest} =Obj  // rest operator
 console.log(name, age)
+console.log(rest)
