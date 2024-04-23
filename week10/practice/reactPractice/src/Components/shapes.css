@@ -1,0 +1,23 @@
+.square{
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Equal to width to make it a square */
+    background-color: black; /* Adjust the color as needed */
+    border: 2px solid black;
+}
+
+.reactangle{
+    width: 100px; /* Adjust the width as needed */
+    height: 200px; /* Equal to width to make it a square */
+    background-color: burlywood; /* Adjust the color as needed */
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.circle{
+    width: 100px; 
+    height: 100px; 
+    margin-top: 10px;
+    background-color: cornflowerblue; 
+    border: 2px solid black;
+    border-radius: 50%; 
+}
