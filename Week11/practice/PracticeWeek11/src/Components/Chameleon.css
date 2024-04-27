@@ -1,0 +1,9 @@
+.btnarea{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+}
