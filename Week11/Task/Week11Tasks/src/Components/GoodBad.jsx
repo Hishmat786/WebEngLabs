@@ -30,15 +30,19 @@ export default function GoodBad() {
       <div className="container">
         <div className="good">
           <h3>Good</h3>
-          {good.map((name, index) => (
-            <div key={index}>{name}</div>
-          ))}
+          <div className="listGood">
+            {good.map((name, index) => (
+              <div key={index}>{name}</div>
+            ))}
+          </div>
         </div>
         <div className="bad">
           <h3>Bad</h3>
-          {bad.map((name, index) => (
-            <div key={index}>{name}</div>
-          ))}
+          <div className="listBad">
+            {bad.map((name, index) => (
+              <div key={index}>{name}</div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
