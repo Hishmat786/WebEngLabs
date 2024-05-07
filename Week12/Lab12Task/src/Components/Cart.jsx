@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Cart.css'
 
 const products = [
   { id: 1, name: 'Milk', price: 10 },
@@ -41,9 +42,9 @@ const Cart = () => {
   return (
     <div>
       <h1>Products</h1>
-      <ul>
+      <ul  className="products-list">
         {products.map(product => (
-          <li key={product.id}>
+          <li key={product.id}  className="product-item">
             {product.name} - Rs:{product.price}{' '}
             <button onClick={() => addToCart(product)}>Add to Cart</button>
           </li>
