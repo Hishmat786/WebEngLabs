@@ -1,0 +1,11 @@
+.c1{
+    margin-top: 5px;
+    /* width: 50%; */
+    height: 150px;
+    background-color: rgb(114, 233, 103);
+    color: rgb(41, 146, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

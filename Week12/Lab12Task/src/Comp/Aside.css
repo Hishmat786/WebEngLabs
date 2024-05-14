@@ -1,0 +1,10 @@
+.aside{
+    margin-top: 5px;
+    width:20% ;
+    height: 300px;
+    background-color: rgb(220, 233, 103);
+    color: rgb(41, 146, 179);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

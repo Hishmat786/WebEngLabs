@@ -10,7 +10,7 @@ export default function HamSath() {
       <h1> HamSathSath </h1>
       <button onClick={addUser}>Add User</button>
       <div>
-        users.map((item) => (
+        {/* users.map((item) => ( */}
             <div>
             <span>User 1</span>
         <button>Step1</button>
