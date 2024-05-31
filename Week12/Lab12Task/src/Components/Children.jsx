@@ -3,7 +3,6 @@ import Navbar from "../Comp/Navbar";
 import Aside from "../Comp/Aside";
 import "../Comp/style.css";
 import Container2 from "../Comp/Container2";
-import AsideR from "../Comp/AsideR";
 import Footer from "../Comp/Footer";
 function Children() {
   return (

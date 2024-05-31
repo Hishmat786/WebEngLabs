@@ -1,0 +1,13 @@
+.nav{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    height: 30px;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    margin-bottom: 0px;
+    height: 30px;
+}
